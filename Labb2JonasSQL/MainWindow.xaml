@@ -1,0 +1,19 @@
+﻿<Window x:Class="Labb2JonasSQL.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Labb2JonasSQL"
+        mc:Ignorable="d"
+        Title="Main Window" Height="450" Width="800">
+    <StackPanel>
+        <Button Content="View Stock Balance" Width="120" Height="30" Margin="10" Click="ViewStockBalance_Click"/>
+        <Button Content="Edit Stock Balance" Width="120" Height="30" Margin="10" Click="EditWindow_Click"/>
+        <Button Content="View Books" Width="120" Height="30" Margin="10" Click="BookWindow_Click"/>
+        <Button Content="Edit Books" Width="120" Height="30" Margin="10" Click="EditBooks_Click"/>
+        <Button Content="Quit" Width="120" Height="30" Margin="10" Click="Quit_Click"/>
+    </StackPanel>
+</Window>
+
+
+

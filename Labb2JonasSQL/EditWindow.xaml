@@ -1,0 +1,25 @@
+﻿<Window x:Class="Labb2JonasSQL.EditWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Edit Book" Height="300" Width="400">
+    <Grid>
+        <StackPanel Margin="10">
+            <TextBlock Text="Edit Stock Balance" FontSize="16" FontWeight="Bold" Margin="0,0,0,10"/>
+
+            <TextBlock Text="ISBN:"/>
+            <ComboBox x:Name="isbnComboBox" DisplayMemberPath="ISBN13" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Store ID:"/>
+            <ComboBox x:Name="storeIdComboBox" DisplayMemberPath="StoreId" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Quantity:"/>
+            <TextBox x:Name="quantityTextBox" Margin="0,0,0,10"/>
+
+            <Button Content="Add Book" Click="AddBook_Click"/>
+            <Button Content="Remove Book" Click="RemoveBook_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
+
+
+
